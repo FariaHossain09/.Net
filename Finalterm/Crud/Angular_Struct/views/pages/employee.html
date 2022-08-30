@@ -1,0 +1,21 @@
+<div class="">
+    <h1>Employee List</h1>
+    <table border="1">
+      <tr>
+          <th>Id</th>
+          <th>Name</th>
+          <th>UserName</th>
+          <th>Email</th>
+          <th>Gender</th>
+          <th>Password</th>
+      </tr>
+      <tr ng-repeat="e in employee">
+        <td>{{e.eId}}</td>
+        <td>{{e.eName}}</td>
+        <td>{{e.eUserName}}</td>
+        <td>{{e.eEmail}}</td>
+        <td>{{e.eGender}}</td>
+        <td>{{e.ePassword}}</td>
+      </tr>
+    </table>
+</div>

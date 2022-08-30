@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="72369493f5dd42819dc38eab9bba9598" Name="Diagram1" ZoomLevel="86">
+        <EntityTypeShape EntityType="fundModel.acceptReq" Width="1.5" PointX="3" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.admin" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.employee" Width="1.5" PointX="0.75" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.leave" Width="1.5" PointX="3" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.raiser" Width="1.5" PointX="8" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.tbl_donation" Width="1.5" PointX="5.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.users1" Width="1.5" PointX="5.75" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="fundModel.users2" Width="1.5" PointX="7.75" PointY="7.125" IsExpanded="true" />
+        <AssociationConnector Association="fundModel.FK_acceptReq_admins" ManuallyRouted="false" />
+        <AssociationConnector Association="fundModel.FK_acceptReq_employees" ManuallyRouted="false" />
+        <AssociationConnector Association="fundModel.FK_leave_employees" ManuallyRouted="false" />
+        <AssociationConnector Association="fundModel.FK_raiser_users1" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="fundModel.Token" Width="1.5" PointX="10.375" PointY="0.75" />
+        <EntityTypeShape EntityType="fundModel.User" Width="1.5" PointX="10.375" PointY="3.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

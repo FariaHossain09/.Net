@@ -1,0 +1,17 @@
+<div class="">
+    <h1>Donation List</h1>
+    <table border="1">
+      <tr>
+          <th>UserId</th>
+          <th>UserName</th>
+          <th>Ammount</th>
+         
+      </tr>
+      <tr ng-repeat="t in tbl_donation">
+        <td>{{t.UserId}}</td>
+        <td>{{t.UserName}}</td>
+        <td>{{t.Ammount}}</td>
+        
+      </tr>
+    </table>
+</div>

@@ -1,0 +1,3 @@
+Model name: FundModel
+Project name:Crud
+db connection name: fund_dbEntities
